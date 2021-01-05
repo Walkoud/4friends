@@ -6,8 +6,8 @@ const client = new Discord.Client({disableEveryone: false});
 //npm install discord.js@11
 
 
-let token = " "
-let channelidBUMP = "  "
+let token = " " //TOKEN OF THE USER
+let channelidBUMP = "  " //CHANNEL ID TO BUMP IN
 
 client.login(token).catch((err) => {console.log('Token du bot non fonctionnel')})
 
